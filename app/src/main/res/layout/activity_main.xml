@@ -30,7 +30,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
     </FrameLayout>
-    <include layout="@layout/fragment_login">
+    <include layout="@layout/fragment_main_page">
 
     </include>
 </androidx.constraintlayout.widget.ConstraintLayout>
