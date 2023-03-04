@@ -22,6 +22,18 @@
             android:layout_height="match_parent"
             android:background="#720101">
 
+            <Button
+                android:id="@+id/att_right"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=""
+                android:stateListAnimator="@null"
+                android:backgroundTint="@android:color/transparent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
             <TextView
                 android:id="@+id/attur_self"
                 android:layout_width="wrap_content"
@@ -48,8 +60,8 @@
                 app:layout_constraintTop_toBottomOf="@+id/attur_self"
                 app:srcCompat="@drawable/check" />
 
-            <ImageButton
-                android:id="@+id/att_right"
+            <ImageView
+                android:id="@+id/str1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="240dp"
@@ -59,6 +71,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/right_arrow" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 
@@ -78,8 +91,20 @@
             android:layout_height="match_parent"
             android:background="#01155B">
 
-            <ImageButton
+            <Button
                 android:id="@+id/schedule_right"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=""
+                android:stateListAnimator="@null"
+                android:backgroundTint="@android:color/transparent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <ImageView
+                android:id="@+id/str2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="240dp"
@@ -132,6 +157,18 @@
             android:layout_height="match_parent"
             android:background="#01155B">
 
+            <Button
+                android:id="@+id/att_info"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=""
+                android:stateListAnimator="@null"
+                android:backgroundTint="@android:color/transparent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
             <ImageView
                 android:id="@+id/chek_att"
                 android:layout_width="wrap_content"
@@ -158,8 +195,8 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <ImageButton
-                android:id="@+id/att_info"
+            <ImageView
+                android:id="@+id/str3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="240dp"
